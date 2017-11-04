@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name hi-link_smps)(type KiCad)(uri "$(KIPRJMOD)/hi-link_smps.pretty")(options "")(descr ""))
+  (lib (name 10061913-100CLF)(type Legacy)(uri "$(KIPRJMOD)/pcix.pretty/10061913-100CLF.mod")(options "")(descr ""))
+  (lib (name sip)(type KiCad)(uri "$(KIPRJMOD)/sip.pretty")(options "")(descr ""))
+  (lib (name Whatnick_logo)(type KiCad)(uri "$(KIPRJMOD)/Whatnick_logo.pretty")(options "")(descr ""))
+)
