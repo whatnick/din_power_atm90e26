@@ -147,7 +147,7 @@
   (net 54 "Net-(J1-Pad4)")
   (net 55 "Net-(J1-Pad2)")
 
-  (net_class Default "Esta es la clase de red por defecto."
+  (net_class Default "This is the default net class."
     (clearance 0.2)
     (trace_width 0.25)
     (via_dia 0.8)
