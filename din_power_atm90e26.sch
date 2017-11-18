@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:graphic_symbols
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1358,6 +1359,17 @@ F 1 "LOGO" H 9000 2702 60  0001 C CNN
 F 2 "Whatnick_logo:Whatnick_logo" H 9000 2600 60  0001 C CNN
 F 3 "" H 9000 2600 60  0001 C CNN
 	1    9000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Open_Hardware_Small LOGO_OSHW1
+U 1 1 5A0F959B
+P 9850 2600
+F 0 "LOGO_OSHW1" H 9850 2875 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9850 2375 50  0001 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 9850 2600 50  0001 C CNN
+F 3 "" H 9850 2600 50  0001 C CNN
+	1    9850 2600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

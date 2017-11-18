@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:graphic_symbols
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -51,7 +52,7 @@ U 1 1 59F735D5
 P 5600 2900
 F 0 "U4" H 5600 3547 60  0000 C CNN
 F 1 "Hi-Link_SMPS" H 5600 3441 60  0000 C CNN
-F 2 "HKLPM01:HKLPM01" H 850 -400 60  0001 C CNN
+F 2 "hi-link_smps:HKLPM01" H 850 -400 60  0001 C CNN
 F 3 "" H 850 -400 60  0001 C CNN
 	1    5600 2900
 	1    0    0    -1  
@@ -62,7 +63,7 @@ U 1 1 59F735D6
 P 9050 5200
 F 0 "J4" H 9050 6265 50  0000 C CNN
 F 1 "CONN_02X18" H 9050 6174 50  0000 C CNN
-F 2 "jt-con-pcie:PCIE-36-SKT" H 5250 800 50  0001 C CNN
+F 2 "hi-link_smps:PCIE-36-SKT" H 5250 800 50  0001 C CNN
 F 3 "" H 5250 800 50  0001 C CNN
 	1    9050 5200
 	0    1    1    0   
@@ -272,7 +273,7 @@ U 1 1 59F735E9
 P 5800 1150
 F 0 "U5" H 6478 1297 60  0000 L CNN
 F 1 "dc-dc" H 6478 1191 60  0000 L CNN
-F 2 "sip:SIP4" H 5800 1150 60  0001 C CNN
+F 2 "hi-link_smps:SIP4" H 5800 1150 60  0001 C CNN
 F 3 "" H 5800 1150 60  0001 C CNN
 	1    5800 1150
 	1    0    0    -1  
@@ -1358,6 +1359,17 @@ F 1 "LOGO" H 9000 2702 60  0001 C CNN
 F 2 "Whatnick_logo:Whatnick_logo" H 9000 2600 60  0001 C CNN
 F 3 "" H 9000 2600 60  0001 C CNN
 	1    9000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Open_Hardware_Small LOGO_OSHW
+U 1 1 5A0F959B
+P 9850 2600
+F 0 "LOGO_OSHW" H 9850 2875 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9850 2375 50  0001 C CNN
+F 2 "" H 9850 2600 50  0001 C CNN
+F 3 "" H 9850 2600 50  0001 C CNN
+	1    9850 2600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
