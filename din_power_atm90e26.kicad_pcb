@@ -2764,10 +2764,10 @@
       (net 1 UA))
     (pad 1 smd rect (at -3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 2 UN))
-    (model SMD_Packages.3dshapes/SMD-4032.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3 0.3 0.3))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
+      (at (xyz 0 0 0.07480314960629922))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2797,10 +2797,10 @@
       (net 2 UN))
     (pad 2 smd rect (at 3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 3 UB))
-    (model SMD_Packages.3dshapes/SMD-4032.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3 0.3 0.3))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
+      (at (xyz 0 0 0.07480314960629922))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2830,15 +2830,15 @@
       (net 4 UC))
     (pad 1 smd rect (at -3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 2 UN))
-    (model SMD_Packages.3dshapes/SMD-4032.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3 0.3 0.3))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
+      (at (xyz 0 0 0.07480314960629922))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
   (dimension 32.766 (width 0.3) (layer F.Fab)
-    (gr_text "32.766 mm" (at 200.105448 61.849 270) (layer F.Fab) (tstamp 5A26FF2A)
+    (gr_text "32.766 mm" (at 200.105448 61.849 270) (layer F.Fab) (tstamp 5A2706E2)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 192.786 78.232) (xy 201.455448 78.232)))
@@ -2850,7 +2850,7 @@
     (arrow2b (pts (xy 198.755448 45.466) (xy 199.341869 46.592504)))
   )
   (dimension 86.868 (width 0.3) (layer F.Fab)
-    (gr_text "86.868 mm" (at 149.352 37.766379) (layer F.Fab) (tstamp 5A26FF2B)
+    (gr_text "86.868 mm" (at 149.352 37.766379) (layer F.Fab) (tstamp 5A2706E3)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 192.786 45.466) (xy 192.786 36.416379)))
