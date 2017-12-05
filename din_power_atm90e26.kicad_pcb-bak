@@ -2830,10 +2830,10 @@
       (net 4 UC))
     (pad 1 smd rect (at -3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 2 UN))
-    (model SMD_Packages.3dshapes/SMD-4032.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3 0.3 0.3))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
+      (at (xyz 0 0 0.07480314960629922))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
