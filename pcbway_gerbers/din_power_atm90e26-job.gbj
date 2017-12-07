@@ -3,7 +3,7 @@ G04 Gerber job file with board parameters*
 %TF.Part,SinglePCB*%
 G04 Single PCB fabrication instructions*
 %TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*%
-%TF.CreationDate,2017-11-22T18:58:21+10:30*%
+%TF.CreationDate,2017-12-07T22:33:37+10:30*%
 %TF.ProjectId,din_power_atm90e26,64696E5F706F7765725F61746D393065,rev?*%
 %MOMM*%
 G04 Overall board parameters*
@@ -18,6 +18,8 @@ G04 board design rules*
 %TJ.D.PadToTrack.Outer,0.200*%
 %TJ.D.TrackToTrack.Outer,0.200*%
 %TJ.D.MinLineWidth.Outer,0.250*%
+%TJ.D.TrackToRegion.Outer,0.300*%
+%TJ.D.RegionToRegion.Outer,0.300*%
 G04 Layer Structure*
 %TJ.L."Copper,L1,Top",Positive,din_power_atm90e26-F.Cu.gtl*%
 %TJ.L."Copper,L2,Bot",Positive,din_power_atm90e26-B.Cu.gbl*%

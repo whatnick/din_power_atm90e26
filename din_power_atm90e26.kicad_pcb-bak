@@ -2888,7 +2888,7 @@
   (gr_text TAPR (at 136.95 62.85) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
-  (gr_text "Whatnick Emon Base v1.2\n06/12/2017" (at 153.67 50.3174) (layer B.SilkS)
+  (gr_text "Whatnick Emon Base v1.2\n07/12/2017" (at 153.67 50.3174) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
   (gr_line (start 192.818 78.266) (end 105.918 78.266) (layer Edge.Cuts) (width 0.15))
