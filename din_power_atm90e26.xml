@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_power_atm90e26\din_power_atm90e26.sch</source>
-    <date>27/11/2017 11:48:29 PM</date>
+    <date>25/12/2017 1:11:01 PM</date>
     <tool>Eeschema (2017-09-19 revision dddaa7e69)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,6 +22,9 @@
     <comp ref="U4">
       <value>Hi-Link_SMPS</value>
       <footprint>hi-link_smps:HKLPM01</footprint>
+      <fields>
+        <field name="kicost:pricing">50:$2.74</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="Hi-Link_SMPS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735D5</tstamp>
@@ -29,6 +32,9 @@
     <comp ref="J4">
       <value>CONN_02X18</value>
       <footprint>hi-link_smps:PCIE-36-SKT</footprint>
+      <fields>
+        <field name="manf#">10018784-10210TLF</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="CONN_02X18"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735D6</tstamp>
@@ -36,6 +42,9 @@
     <comp ref="J5">
       <value>CONN_01X08</value>
       <footprint>Connectors_Molex:Molex_NanoFit_2x04x2.50mm_Angled</footprint>
+      <fields>
+        <field name="manf#">1053141108</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735D7</tstamp>
@@ -43,6 +52,9 @@
     <comp ref="J3">
       <value>CONN_01X08</value>
       <footprint>Connectors_Molex:Molex_NanoFit_2x04x2.50mm_Angled</footprint>
+      <fields>
+        <field name="manf#">1053141108</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735D8</tstamp>
@@ -65,7 +77,7 @@
       <value>Varistor</value>
       <footprint>SMD_Packages:SMD-4032</footprint>
       <fields>
-        <field name="manf#">B72660M0251K072</field>
+        <field name="manf#">VP3225K401R275</field>
       </fields>
       <libsource lib="device" part="Varistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -74,6 +86,9 @@
     <comp ref="J1">
       <value>CONN_01X06</value>
       <footprint>Connectors_Phoenix:PhoenixContact_MC-G_06x5.08mm_Angled</footprint>
+      <fields>
+        <field name="manf#">1759059</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735DC</tstamp>
@@ -82,7 +97,7 @@
       <value>220K</value>
       <footprint>Resistors_SMD:R_1206</footprint>
       <fields>
-        <field name="manf#">CRG1206F220K</field>
+        <field name="manf#">CRCW1206220KFKEA</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -138,21 +153,21 @@
       <tstamp>59F735E4</tstamp>
     </comp>
     <comp ref="R7">
-      <value>R</value>
+      <value>220K</value>
       <footprint>Resistors_SMD:R_1206</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735E5</tstamp>
     </comp>
     <comp ref="R14">
-      <value>R</value>
+      <value>220K</value>
       <footprint>Resistors_SMD:R_1206</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735E6</tstamp>
     </comp>
     <comp ref="R17">
-      <value>R</value>
+      <value>220K</value>
       <footprint>Resistors_SMD:R_1206</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,7 +218,7 @@
       <value>Polyfuse</value>
       <footprint>Capacitors_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm</footprint>
       <fields>
-        <field name="manf#">F74007-000</field>
+        <field name="manf#">0ZRE0012FF1C</field>
       </fields>
       <libsource lib="device" part="Polyfuse"/>
       <sheetpath names="/" tstamps="/"/>
@@ -212,6 +227,9 @@
     <comp ref="C3">
       <value>33n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">CC0603KRX7R9BB333</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F735EE</tstamp>
@@ -348,27 +366,30 @@
     <comp ref="L1">
       <value>Ferrite_Bead_Small</value>
       <footprint>Inductors_SMD:L_1206</footprint>
+      <fields>
+        <field name="manf#">AIML-1206-R27K-T</field>
+      </fields>
       <libsource lib="device" part="Ferrite_Bead_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F73604</tstamp>
     </comp>
     <comp ref="U3">
-      <value>TLV1117-33</value>
+      <value>AP7365-33YG-13</value>
       <footprint>TO_SOT_Packages_SMD:SOT-89-3</footprint>
       <fields>
         <field name="manf#">AP7365-33YG-13</field>
       </fields>
-      <libsource lib="regul" part="TLV1117-33"/>
+      <libsource lib="din_power_atm90e26-cache" part="AP7365-33YG-13"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F7360D</tstamp>
     </comp>
     <comp ref="U2">
-      <value>TLV1117-33</value>
+      <value>AP7365-33YG-13</value>
       <footprint>TO_SOT_Packages_SMD:SOT-89-3</footprint>
       <fields>
         <field name="manf#">AP7365-33YG-13</field>
       </fields>
-      <libsource lib="regul" part="TLV1117-33"/>
+      <libsource lib="din_power_atm90e26-cache" part="AP7365-33YG-13"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F7360E</tstamp>
     </comp>
@@ -416,6 +437,9 @@
     <comp ref="J2">
       <value>VBAT</value>
       <footprint>Connectors_JST:JST_SH_BM02B-SRSS-TB_02x1.00mm_Straight</footprint>
+      <fields>
+        <field name="manf#">BM02B-SRSS-TB(LFSN)</field>
+      </fields>
       <libsource lib="din_power_atm90e26-cache" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F73614</tstamp>
@@ -437,12 +461,15 @@
     <comp ref="R32">
       <value>2K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="manf#">RT0603DRE072KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F73619</tstamp>
     </comp>
     <comp ref="R33">
-      <value>470R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -451,6 +478,9 @@
     <comp ref="D2">
       <value>LED</value>
       <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="manf#">LTST-C190KRKT</field>
+      </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F7361B</tstamp>
@@ -465,9 +495,22 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F7361C</tstamp>
     </comp>
+    <comp ref="SYM1">
+      <value>SYM_Flash_Small</value>
+      <footprint>Whatnick_logo:Fsilk_HV</footprint>
+      <fields>
+        <field name="DNP">1</field>
+      </fields>
+      <libsource lib="graphic_symbols" part="SYM_Flash_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F73620</tstamp>
+    </comp>
     <comp ref="G1">
       <value>LOGO</value>
       <footprint>Whatnick_logo:Whatnick_logo</footprint>
+      <fields>
+        <field name="DNP">1</field>
+      </fields>
       <libsource lib="whatnick" part="LOGO"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F74376</tstamp>
@@ -475,12 +518,34 @@
     <comp ref="LOGO_OSHW1">
       <value>Logo_Open_Hardware_Small</value>
       <footprint>Symbols:OSHW-Symbol_6.7x6mm_SilkScreen</footprint>
+      <fields>
+        <field name="DNP">1</field>
+      </fields>
       <libsource lib="graphic_symbols" part="Logo_Open_Hardware_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A0F959B</tstamp>
     </comp>
   </components>
   <libparts>
+    <libpart lib="din_power_atm90e26-cache" part="AP7365-33YG-13">
+      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7365-33YG-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -663,35 +728,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="regul" part="LM1117-1.8">
-      <aliases>
-        <alias>LM1117-2.5</alias>
-        <alias>LM1117-3.3</alias>
-        <alias>LM1117-5.0</alias>
-        <alias>TLV1117-15</alias>
-        <alias>TLV1117-18</alias>
-        <alias>TLV1117-25</alias>
-        <alias>TLV1117-33</alias>
-        <alias>TLV1117-50</alias>
-      </aliases>
-      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
-      <footprints>
-        <fp>SOT?223*</fp>
-        <fp>TO?263*</fp>
-        <fp>TO?252*</fp>
-        <fp>TO?220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM1117-1.8</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="whatnick" part="LOGO">
       <fields>
         <field name="Reference">#G</field>
@@ -759,6 +795,14 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="graphic_symbols" part="SYM_Flash_Small">
+      <description>small flash symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Flash_Small</field>
+      </fields>
+    </libpart>
     <libpart lib="device" part="Varistor">
       <description>Voltage dependent resistor</description>
       <footprints>
@@ -788,23 +832,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
     <library logical="graphic_symbols">
       <uri>C:\Program Files\KiCad\share\kicad\library\graphic_symbols.lib</uri>
     </library>
-    <library logical="regul">
-      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="whatnick">
       <uri>C:\Users\Tisham\Documents\kicad\din_power_atm90e26\whatnick.lib</uri>
     </library>
-    <library logical="din_power_atm90e26-cache">
-      <uri>C:\Users\Tisham\Documents\kicad\din_power_atm90e26\din_power_atm90e26-cache.lib</uri>
-    </library>
     <library logical="dc-dc">
       <uri>C:\Users\Tisham\Documents\kicad\din_power_atm90e26\dc-dc.lib</uri>
+    </library>
+    <library logical="din_power_atm90e26-cache">
+      <uri>C:\Users\Tisham\Documents\kicad\din_power_atm90e26\din_power_atm90e26-cache.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -820,7 +861,7 @@
     </net>
     <net code="3" name="+3V3">
       <node ref="C7" pin="1"/>
-      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="1"/>
       <node ref="J4" pin="32"/>
     </net>
     <net code="4" name="Net-(D2-Pad1)">
@@ -837,7 +878,7 @@
     </net>
     <net code="7" name="GNDPWR">
       <node ref="U4" pin="3"/>
-      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
       <node ref="R32" pin="2"/>
       <node ref="U5" pin="1"/>
       <node ref="C4" pin="2"/>
@@ -967,27 +1008,27 @@
     <net code="34" name="VBAT">
       <node ref="J4" pin="30"/>
       <node ref="U1" pin="3"/>
+      <node ref="D1" pin="2"/>
       <node ref="C9" pin="2"/>
       <node ref="J2" pin="1"/>
-      <node ref="D1" pin="2"/>
     </net>
     <net code="35" name="Net-(J4-Pad20)">
       <node ref="J4" pin="20"/>
     </net>
     <net code="36" name="+5V_ISO">
-      <node ref="U5" pin="4"/>
-      <node ref="C5" pin="1"/>
-      <node ref="J4" pin="9"/>
       <node ref="U3" pin="3"/>
+      <node ref="U5" pin="4"/>
+      <node ref="J4" pin="9"/>
+      <node ref="C5" pin="1"/>
     </net>
     <net code="37" name="+3.3V_ISO">
+      <node ref="U3" pin="1"/>
       <node ref="J4" pin="8"/>
-      <node ref="U3" pin="2"/>
       <node ref="C8" pin="1"/>
     </net>
     <net code="38" name="GNDA">
+      <node ref="U3" pin="2"/>
       <node ref="R31" pin="2"/>
-      <node ref="U3" pin="1"/>
       <node ref="R30" pin="1"/>
       <node ref="R21" pin="2"/>
       <node ref="C2" pin="2"/>
