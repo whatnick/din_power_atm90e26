@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170919) (host pcbnew "(2017-09-19 revision dddaa7e69)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(2018-02-15 revision 29b28de31)-makepkg")
 
   (general
     (thickness 1.6)
@@ -367,7 +367,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 2.35 2.35) (drill 2.35) (layers *.Cu))
     (pad "" np_thru_hole circle (at 9.15 0 90) (size 2.35 2.35) (drill 2.35) (layers *.Cu))
     (model ${KIPRJMOD}/pcix.3dshapes/10018783-x0xxx_36c.stp
-      (at (xyz 0 0 -0.05905511811023623))
+      (offset (xyz 0 0 -1.49999997747226))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
@@ -448,7 +448,7 @@
     (pad 1 thru_hole rect (at -3.81 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 7 GNDPWR))
     (model ${KIPRJMOD}/dc-dc.3dshapes/PCSA1-S5-S5-S.stp
-      (at (xyz 0 0.1692913385826772 0))
+      (offset (xyz 0 4.29999993542048 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -461,7 +461,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.12)) (justify left bottom))
     )
     (fp_text value Hi-Link_SMPS (at 1.74752 -0.70612) (layer F.SilkS)
-      (effects (font (thickness 0.15)))
+      (effects (font (size 1.524 1.524) (thickness 0.15)))
     )
     (fp_line (start -13 -2.5) (end -12.5 -3) (layer F.SilkS) (width 0.2))
     (fp_line (start -12.5 -3) (end -12 -2) (layer F.SilkS) (width 0.2))
@@ -489,7 +489,7 @@
     (pad 1 thru_hole rect (at -14.7 -2.5) (size 1.308 1.308) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 UC))
     (model ${KIPRJMOD}/hi-link.3dshapes/hilink.step
-      (at (xyz -0.7480314960629921 -0.4527559055118111 0))
+      (offset (xyz -18.99999971464863 -11.49999982728733 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -647,7 +647,7 @@
     (pad 1 smd rect (at -0.5 1.2625) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask)
       (net 33 VBAT))
     (model ${KIPRJMOD}/jst.3dshapes/BM02B-SRSS-TB.STEP
-      (at (xyz 0 0.05905511811023623 0))
+      (offset (xyz 0 1.49999997747226 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -720,7 +720,7 @@
     (pad "" np_thru_hole circle (at 0 -9.68 270) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 7.5 -9.68 270) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/3dmodels/1053141208.stp
-      (at (xyz 0.1456692913385827 0.3385826771653543 0.1181102362204725))
+      (offset (xyz 3.699999944431576 8.599999870840957 2.999999954944522))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
@@ -793,7 +793,7 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 1.9 1.9) (drill 1.2) (layers *.Cu *.Mask)
       (net 16 IA2+))
     (model ${KIPRJMOD}/3dmodels/1053141208.stp
-      (at (xyz 0.1456692913385827 0.3385826771653543 0.1181102362204725))
+      (offset (xyz 3.699999944431576 8.599999870840957 2.999999954944522))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
@@ -849,10 +849,10 @@
       (net 55 "Net-(J1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.8 3.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 UA))
-    (model ${KISYS3DMOD}/Connectors_Phoenix.3dshapes/PhoenixContact_MC-G_06x5.08mm_Angled.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/Terminal.3dshapes/1759059_04.stp
+      (offset (xyz -2.5 2 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 180 -90))
     )
   )
 
@@ -1576,7 +1576,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.12)) (justify mirror))
     )
     (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -3.139967 -2.050986) (xy -3.127412 -2.13222) (xy -3.138411 -2.174875) (xy -3.173829 -2.301354)
       (xy -3.231098 -2.511273) (xy -3.299515 -2.765312) (xy -3.319914 -2.841625) (xy -3.412672 -3.143069)
@@ -2789,7 +2789,7 @@
     (pad 1 smd rect (at -3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 2 UN))
     (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
-      (at (xyz 0 0 0.07480314960629922))
+      (offset (xyz 0 0 1.899999971464863))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -2822,7 +2822,7 @@
     (pad 2 smd rect (at 3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 3 UB))
     (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
-      (at (xyz 0 0 0.07480314960629922))
+      (offset (xyz 0 0 1.899999971464863))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -2855,14 +2855,14 @@
     (pad 1 smd rect (at -3.683 0 180) (size 1.27 3.302) (layers F.Cu F.Paste F.Mask)
       (net 2 UN))
     (model ${KIPRJMOD}/mov.3dshapes/Mov_3225.step
-      (at (xyz 0 0 0.07480314960629922))
+      (offset (xyz 0 0 1.899999971464863))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
   (dimension 32.766 (width 0.3) (layer F.Fab)
-    (gr_text "32.766 mm" (at 200.105448 61.849 270) (layer F.Fab) (tstamp 5A4069DC)
+    (gr_text "32.766 mm" (at 200.105448 61.849 270) (layer F.Fab)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 192.786 78.232) (xy 201.455448 78.232)))
@@ -2874,7 +2874,7 @@
     (arrow2b (pts (xy 198.755448 45.466) (xy 199.341869 46.592504)))
   )
   (dimension 86.868 (width 0.3) (layer F.Fab)
-    (gr_text "86.868 mm" (at 149.352 37.766379) (layer F.Fab) (tstamp 5A4069DD)
+    (gr_text "86.868 mm" (at 149.352 37.766379) (layer F.Fab)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 192.786 45.466) (xy 192.786 36.416379)))
