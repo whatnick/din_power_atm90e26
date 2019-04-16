@@ -403,7 +403,7 @@
       (net 2 UN))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 34 /UN_IN))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D10.0mm_W2.5mm_P5.00mm.step
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D10.0mm_W2.5mm_P5.00mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1468,7 +1468,7 @@
       (net 7 GNDPWR))
     (pad 1 smd rect (at -1.1 -0.95 180) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 31 "Net-(R33-Pad2)"))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1515,7 +1515,7 @@
       (net 7 GNDPWR) (zone_connect 2))
     (pad 2 smd trapezoid (at -0.0762 0 180) (size 1.5 1) (rect_delta 0 0.7 ) (layers F.Cu F.Paste F.Mask)
       (net 7 GNDPWR) (zone_connect 2))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-89-3.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1562,7 +1562,7 @@
       (net 28 +3.3V_ISO))
     (pad 2 smd trapezoid (at 2.667 0 180) (size 1.6 0.85) (rect_delta 0 0.6 ) (layers F.Cu F.Paste F.Mask)
       (net 5 GNDA) (zone_connect 2))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-89-3.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1738,7 +1738,7 @@
       (net 2 UN))
     (pad 1 smd rect (at -1.45 0 180) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 5 GNDA))
-    (model Inductors_SMD.3dshapes\L_1206.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_1206_3216Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1774,7 +1774,7 @@
       (net 7 GNDPWR))
     (pad 1 smd rect (at -0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(R32-Pad1)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1810,7 +1810,7 @@
       (net 31 "Net-(R33-Pad2)"))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(D2-Pad1)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1973,24 +1973,24 @@
     (fp_text value 1uF (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_line (start 1.4 0.65) (end -1.4 0.65) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.4 0.65) (end 1.4 -0.65) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.4 -0.65) (end -1.4 0.65) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.4 -0.65) (end 1.4 -0.65) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.35 0.6) (end -0.35 0.6) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.35 -0.6) (end 0.35 -0.6) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_text user %R (at 0 -1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-    (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-    (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-    (fp_line (start -0.35 -0.6) (end 0.35 -0.6) (layer F.SilkS) (width 0.12))
-    (fp_line (start 0.35 0.6) (end -0.35 0.6) (layer F.SilkS) (width 0.12))
-    (fp_line (start -1.4 -0.65) (end 1.4 -0.65) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.4 -0.65) (end -1.4 0.65) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.4 0.65) (end 1.4 -0.65) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.4 0.65) (end -1.4 0.65) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
-      (net 6 +5V))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 GNDPWR))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
+      (net 6 +5V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2026,7 +2026,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V_ISO))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2062,7 +2062,7 @@
       (net 7 GNDPWR))
     (pad 1 smd rect (at -0.75 0 180) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 6 +5V))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2098,7 +2098,7 @@
       (net 29 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 GNDPWR))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2134,7 +2134,7 @@
       (net 28 +3.3V_ISO))
     (pad 2 smd rect (at 0.75 0 180) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 5 GNDA))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2170,7 +2170,7 @@
       (net 33 VBAT))
     (pad 1 smd rect (at -0.75 0 90) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 GNDPWR))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2213,7 +2213,7 @@
       (net 33 VBAT))
     (pad 1 smd rect (at -1.1 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 6 +5V))
-    (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_SOD-323F.wrl
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-323F.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2251,10 +2251,10 @@
       (net 32 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0.8 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 6 +5V))
-    (model LEDs.3dshapes/LED_0603.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2287,7 +2287,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 25 UC_SAMP))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2323,7 +2323,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 24 UA_SAMP))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2359,7 +2359,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0) (size 0.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 26 UB_SAMP))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2431,7 +2431,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 17 IA2-))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2467,7 +2467,7 @@
       (net 5 GNDA))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 18 IC2+))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2503,7 +2503,7 @@
       (net 5 GNDA))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 19 IC2-))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2539,7 +2539,7 @@
       (net 5 GNDA))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 24 UA_SAMP))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2575,7 +2575,7 @@
       (net 5 GNDA))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 26 UB_SAMP))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2611,7 +2611,7 @@
       (net 23 IB2+))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 GNDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2647,7 +2647,7 @@
       (net 22 IN2-))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 GNDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2683,7 +2683,7 @@
       (net 27 IN2+))
     (pad 1 smd rect (at -0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 GNDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2719,7 +2719,7 @@
       (net 20 IB2-))
     (pad 2 smd rect (at 0.75 0 180) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 GNDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2755,7 +2755,7 @@
       (net 16 IA2+))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 GNDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
