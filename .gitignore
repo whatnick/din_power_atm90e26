@@ -1,0 +1,13 @@
+# Backup and cache files
+*bak
+*bck
+*cache*
+_autosave*
+
+# Autoroute files
+*.dsn
+*.rules
+*.ses
+
+#Gerber delivery zip
+*.zip
