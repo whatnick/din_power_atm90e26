@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name din_power_atm90e26-rescue)(type Legacy)(uri ${KIPRJMOD}/din_power_atm90e26-rescue.lib)(options "")(descr ""))
+  (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/whatnick.lib)(options "")(descr ""))
+  (lib (name dc-dc)(type Legacy)(uri ${KIPRJMOD}/dc-dc.lib)(options "")(descr ""))
+)

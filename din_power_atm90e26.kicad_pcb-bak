@@ -403,7 +403,7 @@
       (net 2 UN))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 34 /UN_IN))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D10.0mm_W2.5mm_P5.00mm.step
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D10.0mm_W2.5mm_P5.00mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
